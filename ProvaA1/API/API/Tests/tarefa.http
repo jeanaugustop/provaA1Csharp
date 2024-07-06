@@ -1,0 +1,12 @@
+### Listar todas as tarefas
+GET http://localhost:5000/tarefas/listar
+
+### Cadastrar uma nova tarefa
+POST http://localhost:5000/tarefas/cadastrar
+Content-Type: application/json
+
+{
+    "titulo": "Teste TesteJean",
+    "descricao": "testetestetestetestetestetestetesteteste",
+    "categoriaId": "39be53a2-fc09-4b6a-bafa-18a6a23c8f6e"
+}
